@@ -1,6 +1,6 @@
 const valor1 = 12
 
-const valor2 = 15
+const valor2 = '12'
 
 const igual = valor1 == valor2
 

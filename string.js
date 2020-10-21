@@ -19,7 +19,7 @@ string.includes
 /**
  * Procura por string no inicio.
  */
-string.startsWith
+string.startsWith( '' )
 
 /**
  * Procura por string no final.

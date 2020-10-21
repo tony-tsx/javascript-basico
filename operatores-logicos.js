@@ -1,6 +1,12 @@
 const boolean1 = true
 const boolean2 = false
 
+const valoresFalsos = [ undefined, null, 0, '', false ]
+
+const valoresVerdadeiros = [ '0', true, -1, 1,  ]
+
+// Todos o resto que não esteja nos valores falsos
+
 /**
  * Operatores Lógicos.
  * 

@@ -19,6 +19,8 @@ while( condicao() ) {
   console.log(
     `contador no while: ${whileCount} ( ${condicao.resultado} === 1, ${condicao.numeroAleatorio} )`
   )
+  return
+  continue
 }
 
 console.log( 'iniciando repeticao por do while, enquanto a condicao for verdadeira' )
@@ -29,9 +31,13 @@ do {
   console.log(
     `contador no while: ${doWhileCount} ( ${condicao.resultado} === 1, ${condicao.numeroAleatorio} )`
   )
+  break
+  continue
 } while( condicao() )
 
 console.log( 'iniciando repeticao por for, enquanto a condicao for verdadeira' )
+
+const array = []
 
 for ( let forCount = 1; condicao(); forCount++ ) {
   console.log(

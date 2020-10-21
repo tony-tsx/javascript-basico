@@ -6,11 +6,13 @@ Object.defineProperty( objeto, 'propriedade', {
   /**
    * Define o valor da propriedade no objeto.
    */
-  value: 'qualquer valor',
+  value: new Date(),
+
   /**
    * Define se a propriedade pode ser configurada novamente.
    */
   configurable: Boolean(),
+
   /**
    * Define se a propriedade pode ser listada dentro do objeto.
    */
@@ -21,7 +23,7 @@ Object.defineProperty( objeto, 'propriedade', {
   writable: Boolean(),
 
   /**
-   * Getters e Setters.
+   * Get e Set.
    * 
    * Atenção, quando for definido get ou set, a descrição da propriedade não pode conter value e nem writable.
    */
